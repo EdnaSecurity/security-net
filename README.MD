@@ -30,14 +30,14 @@ Open `web.config` file and add our module parameters into your Application setti
 	<add key="_secretkey" value="API Secret key" />
 	<add key="_publickey" value="API Public key" />
 	<add key="_uri" value="https://dash.e-dna.co/secure" />
-    <add key="_timeout" value="1000" />
-    <add key="_debug_mode" value="false" />
-    <add key="_security_mode" value="monitor" />
-    <add key="_autoRedirection" value="false" />
-    <add key="_breaker_reset_timeout" value="500" />
-    <add key="_breaker_invoc_timeout" value="2000" />
-    <add key="_breaker_max_failures" value="2" />
-    <add key="_proxy_address" value="http://192.168.10.33:3021" />
+	<add key="_timeout" value="1000" />
+	<add key="_debug_mode" value="false" />
+	<add key="_security_mode" value="monitor" />
+	<add key="_autoRedirection" value="false" />
+	<add key="_breaker_reset_timeout" value="500" />
+	<add key="_breaker_invoc_timeout" value="2000" />
+	<add key="_breaker_max_failures" value="2" />
+	<add key="_proxy_address" value="http://192.168.10.33:3021" />
 	...
 </appSettings>
 ```
