@@ -43,6 +43,7 @@ Open `web.config` file and add our module parameters into your Application setti
 ```
 
 ##### Definition of each parameter
+```js
 `_username`: **String**, *++Required++* **The Autentication username to be used in the Http Simple Athentication**.
 `_password`: **String**, *++Required++* **The Authentication password to be sent with the _username**.
 `_secretkey`: **String**, *++Required++* **Your Application secret key**.
@@ -55,7 +56,7 @@ Open `web.config` file and add our module parameters into your Application setti
 `_breaker_invoc_timeout`: **Int32**, *++Required++* **The breaker is set there waiting when to start an action, the actual action is the Http request, so this param is set to tell the module to start an Async call after a given timestamp.**.
 `_breaker_reset_timeout`: **Int32**, *++Required++* **In case the module failed this value will again try to launch the Http request to our API, this param works only if there is is a value upper than 1**.
 `_proxy_address`: **String**, *++Optional++* **If you want to send requests throughout a proxy address, then simply use this param and set it to your desired address, remember if the proxy IP chosen is blacklisted or a reported address we may block requests untill you fix it.**.
-
+```
 Then add our module into your system and server settings:
 ```cs
 <system.web>
