@@ -43,7 +43,7 @@ Open `web.config` file and add our module parameters into your Application setti
 ```
 
 ##### Definition of each parameter
-```js
+```
 `_username`: **String**, *++Required++* **The Autentication username to be used in the Http Simple Athentication**.
 `_password`: **String**, *++Required++* **The Authentication password to be sent with the _username**.
 `_secretkey`: **String**, *++Required++* **Your Application secret key**.
