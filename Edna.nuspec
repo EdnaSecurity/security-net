@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Edna.Secure</id>
+    <version>1.3.1.56</version>
+    <title>Secure</title>
+    <authors>Edna</authors>
+    <owners>Edna</owners>
+    <licenseUrl>http://e-dna.co/license</licenseUrl>
+    <projectUrl>http://e-dna.co/developer</projectUrl>
+    <iconUrl>https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Security_Approved.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package is used by Edna clients in order to communicate with the API to detect bots and protect their websites from being attacked.</description>
+    <releaseNotes>Using a proxy reverse address is now available and optional, it is by default set to "null" untill you set the address e.g. http://192.168.10.6:3303</releaseNotes>
+    <copyright>Copyright ©2017 E-DNA</copyright>
+    <tags>HttpModule Edna</tags>
+  </metadata>
+  <files>
+    <file src="bin\Debug\Edna.dll" target="lib"></file>
+    <file src="README.md" target="" />
+  </files>
+</package>

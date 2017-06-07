@@ -1,0 +1,4 @@
+C:\Users\Rdereberte\Desktop\.Net Projects\Edna\Edna\bin\Release\Edna.dll
+C:\Users\Rdereberte\Desktop\.Net Projects\Edna\Edna\bin\Release\Edna.pdb
+C:\Users\Rdereberte\Desktop\.Net Projects\Edna\Edna\obj\Release\Edna.dll
+C:\Users\Rdereberte\Desktop\.Net Projects\Edna\Edna\obj\Release\Edna.pdb
